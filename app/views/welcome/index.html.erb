@@ -13,6 +13,10 @@
     <%= stylesheet_link_tag    'application', media: 'all' %>
     <%= javascript_include_tag 'application' %>
 
+    <% array = ['stevennunez.jpg', 'steven.jpg', 'amandachang.jpg', 'joshowens.jpg', 'roseweixel.png', 'bengross.jpg','joshowens1.jpg'] %>
+    <% pic = array.sample %>
+    <% image_path(pic) %>
+
   </head>
   <body>
     <div id="center">
